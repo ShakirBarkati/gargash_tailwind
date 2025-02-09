@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@layer theme, base, components, utilities;
+
+@theme {
+    --font-sora: "Sora", serif;
+    --font-inter: "Inter", serif;
+    --color-main: #E6B110;
+    --color-primary: #000;
+    --color-secondry: #fff;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
